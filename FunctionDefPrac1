@@ -1,0 +1,12 @@
+
+def stats():
+    import statistics
+    my_list = [2, 4, 6, 8, 10, 12]
+    print(my_list)
+    mean = statistics.mean(my_list)
+    std = statistics.pstdev(my_list)
+    rd = round(std,2)
+    print('mean is',round(mean, 2))
+    print('population standard deviation is', rd)
+stats()
+
